@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical">
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Large Text"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:id="@+id/projectTextView1"/>
+
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="match_parent"
+		android:layout_height="100dp"
+		android:layout_marginTop="10dp"
+		android:gravity="center">
+
+		<EditText
+			android:layout_width="100dp"
+			android:ems="10"
+			android:layout_height="wrap_content"
+			android:hint="C 1"
+			android:id="@+id/projectEditText1"/>
+
+		<EditText
+			android:layout_width="100dp"
+			android:ems="10"
+			android:layout_height="wrap_content"
+			android:hint="C 2"
+			android:id="@+id/projectEditText2"/>
+
+		<EditText
+			android:layout_width="100dp"
+			android:ems="10"
+			android:layout_height="wrap_content"
+			android:hint="C 3"
+			android:id="@+id/projectEditText3"/>
+
+		<Button
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="+"
+			android:onClick="addLayout"
+			android:id="@+id/projectButton1"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/projectLinearLayout1"/>
+
+	<Button
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Count DATA"
+		android:onClick="showData"/>
+
+	<Button
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Save Data"
+		android:onClick="save"/>
+
+</LinearLayout>
+

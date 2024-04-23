@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:gravity="center">
+
+	<EditText
+		android:layout_width="wrap_content"
+		android:ems="10"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="10dp"
+		android:id="@+id/createprojectEditText1"
+		android:hint="Project Name"/>
+
+	<EditText
+		android:layout_width="wrap_content"
+		android:ems="10"
+		android:layout_height="100dp"
+		android:layout_marginTop="10dp"
+		android:id="@+id/createprojectEditText2"
+		android:hint="Explain"/>
+
+	<Button
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Create Project"
+		android:layout_marginTop="10dp"	android:id="@+id/createprojectButton1"
+		android:background="#FF0F00"
+		android:textColor="#FFFFFF"
+		android:onClick="save"/>
+
+</LinearLayout>
+
